@@ -37,6 +37,29 @@ HL, TECHNICALLY SPECIFIC IDEAS
 - Goal: Use the found secrets to authenticate to a broker or API
 - How: File for binwalk/ghidra
 
+(Area 5) IoMT Credential Replay
+- Challenge: Replay and impersonate an insecure medical device
+- Goal: Successfully authenticate to a medical monitoring system
+- How: Emulate - TBS!
+
+(Area 5) Digital Twin Mainpulation
+- Challenge: Tamper with the digital twin of a process
+- Goal: Induce incorrect corrective actions in the physical system
+- How: TBS
+
+(Advanced)(Area x) AI/ML Poisoning Predictive Maintenance
+- Challenge: Posing training data fed into an ML model predicting device failures (SCADA) --> FDIA!!
+- Goal: Cause silent failure or false predictions
+- How: ML Model and data 'control' tampering --> read, enumeration of data series and input somehow
+  - Potentially: time-series exploitation of insecure APIs used for telemtry querying, aim to dump sensor values/config entries --> through InfluxDB or TimeScaleDB setups?
+
+
+Tools to look into for the Hows:
+- FactoryIO, Scadasim
+- IoT-Inspector, Node-RED
+- MIMIC-III, OpenAPS, bluetooth traffic dumps
+- ICS-REF, ModbusPal, PLCEmu 
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Template
