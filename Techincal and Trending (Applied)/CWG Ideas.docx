@@ -22,13 +22,28 @@ HL, TECHNICALLY SPECIFIC IDEAS
 - Challenge: intercept and manipulate the communications between a PLC and HMI (or other devices) to change the actuator and process behaviour; undetected (?)
 - Goal: extract a flag from a specific manioulated state of the PLC/device
 
-Ladder Logic Tampering
-- Challenge: 
+(Area 1) Ladder Logic Tampering
+- Challenge: gain access to a PL
+- Goal: tamper the logic in a specific manner to get a desierd, unintended output
+- How: OpenPLC, TBS
 
 (Area 3) Network Segmentation Bypass
 - Challenge: Pivot from corporate net to segmented ICS zone 
-- Goal: access a panel/historian or something else (tamper with data?) 
-- How: simulate network env (Mini CPS?)
+- Goal: Access a panel/historian or something else (tamper with data?) 
+- How: Simulate network env (Mini CPS?)
 
+(Area 4) Firmware and Hardcoded Secrets Exploit
+- Challenge: Analyse extracted firmware from an IIoT sensor to find hardcoded credentials (MGTT topics too?)
+- Goal: Use the found secrets to authenticate to a broker or API
+- How: File for binwalk/ghidra
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Template
+
+(Area x) Title
+- Challenge:
+- Goal:
+- How:
 
 
