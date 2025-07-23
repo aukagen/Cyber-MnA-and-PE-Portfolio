@@ -1,3 +1,20 @@
 Ideas for techincal operations in terms of raising awareness around OT Security through CWG
 
 Both for personal learnings and for developers and clients
+
+
+
+FOCUS AREAS
+1. (Legacy) Protocols
+2. Real-world / Ransomware insipired simulations 
+
+
+
+
+HL, TECHNICALLY SPECIFIC IDEAS
+(Area 1) Protocol Packet Injection
+- (something other than modbus)
+- Challenge: intercept and manipulate the communications between a PLC and HMI (or other devices) to change the actuator and process behaviour; undetected (?)
+- Goal: extract a flag from a specific manioulated state of the PLC/device
+
+
