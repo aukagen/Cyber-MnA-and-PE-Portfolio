@@ -7,6 +7,11 @@ Both for personal learnings and for developers and clients
 FOCUS AREAS
 1. (Legacy) Protocols
 2. Real-world / Ransomware insipired simulations 
+3. Networking (convergence, segmentation, architecturing, etc.)
+4. Misconfigurations and vulnerabilities (in devices, CVEs, otherwise)
+5. Industrial engineering devices and techincal awareness (i.e. SCADA, EMS, and DCS environments with components like PLCs, RTUs, etc.)
+6. EWS and HMI exploitation (essentially web-apps)
+
 
 
 
@@ -16,5 +21,14 @@ HL, TECHNICALLY SPECIFIC IDEAS
 - (something other than modbus)
 - Challenge: intercept and manipulate the communications between a PLC and HMI (or other devices) to change the actuator and process behaviour; undetected (?)
 - Goal: extract a flag from a specific manioulated state of the PLC/device
+
+Ladder Logic Tampering
+- Challenge: 
+
+(Area 3) Network Segmentation Bypass
+- Challenge: Pivot from corporate net to segmented ICS zone 
+- Goal: access a panel/historian or something else (tamper with data?) 
+- How: simulate network env (Mini CPS?)
+
 
 
