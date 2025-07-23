@@ -1,0 +1,1 @@
+Folder for the linkedin articles - based on trends and thoughts around them
